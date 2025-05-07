@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test" parallel="classes">
+    <classes>
+      <class name="TestNg_Task.Flipkart"/>
+      <class name="TestNg_Task.Book_My_Show"/>
+      <class name="TestNg_Task.Multiple_window"/>
+      <class name="TestNg_Task.Dominos"/>
+      <class name="TestNg_Task.Myntra"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
